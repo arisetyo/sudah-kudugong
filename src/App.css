@@ -1,0 +1,14 @@
+/**
+ * @author Arie M. Prasetyo
+ * @copyright 2020
+ */
+
+ .App {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-family: 'PT Serif', serif;
+	font-size: 12px;
+}

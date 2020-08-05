@@ -1,0 +1,18 @@
+/**
+ * @author Arie M. Prasetyo
+ * @copyright 2020
+ */
+
+ .Button {
+   border-radius: 4px;
+   padding: 6px 8px;
+   text-align: center;
+   cursor: pointer;
+   outline: none;
+   text-decoration: none;
+   overflow: hidden;
+}
+
+.Button:disabled {
+  cursor: default;
+}
