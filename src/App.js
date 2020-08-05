@@ -6,12 +6,13 @@
 
 import React from 'react';
 import styles from './App.css';
-import { Button } from './form-component';
 
 const App = () => (
   <div className={ styles.App }>
 
-    <Button>Test</Button>
+    <h1>Dugong user-interface components library</h1>
+
+    <h3>This is a test app used for development. Please use the Storybook to access library documentation.</h3>
   
   </div>
 );
