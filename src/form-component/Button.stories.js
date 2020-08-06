@@ -5,22 +5,28 @@
  */
 
 import React from 'react';
+import { action } from '@storybook/addon-actions';
+import { withKnobs, boolean } from '@storybook/addon-knobs/react';
 import Button from './Button';
 
 // Story title
-export default { title: 'Button' };
+export default {
+  component: Button,
+  title: 'Button',
+  decorators: [withKnobs],
+  excludeStories: /.*Data$/,
+};
 
-// Story: with text
-export const withText = () => <Button>Hello Button</Button>;
+export const actionsData = {
+  onClick: action('onClick')
+};
 
-// Story: with emoji
-export const withEmoji = () => (
-  <Button>
-    <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
-    </span>
+// Story: default button
+export const Basic = () => (
+  <Button 
+    { ...actionsData }
+    disabled={ boolean('disabled', false) }
+  >
+    This is a generic button
   </Button>
 );
-
-// Story: disabled button
-export const disabled = () => <Button disabled={true}>Disabled</Button>;

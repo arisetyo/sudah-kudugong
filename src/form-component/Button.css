@@ -4,13 +4,14 @@
  */
 
  .Button {
-   border-radius: 4px;
-   padding: 6px 8px;
+   border-radius: 1px;
+   padding: 8px 12px;
    text-align: center;
    cursor: pointer;
    outline: none;
    text-decoration: none;
    overflow: hidden;
+   background-color: beige;
 }
 
 .Button:disabled {
