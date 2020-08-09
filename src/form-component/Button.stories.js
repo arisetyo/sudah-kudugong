@@ -12,7 +12,7 @@ import Button from './Button';
 // Story title
 export default {
   component: Button,
-  title: 'Button',
+  title: 'Components|Form components/Button',
   decorators: [withKnobs],
   excludeStories: /.*Data$/,
 };

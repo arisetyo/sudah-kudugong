@@ -6,6 +6,7 @@
 
 import React from 'react';
 import { render } from 'react-dom';
+import { Button, ToggleButton } from './form-component';
 import App from './App';
 
 render(

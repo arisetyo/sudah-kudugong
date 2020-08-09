@@ -5,7 +5,9 @@
  */
 
 import Button from './Button';
+import ToggleButton from './ToggleButton';
 
 export {
-	Button
+	Button,
+	ToggleButton
 };
