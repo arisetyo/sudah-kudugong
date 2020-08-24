@@ -10,7 +10,7 @@ import Tag from './Tag';
 // Story title
 export default {
   component: Tag,
-  title: 'Components|Visual indicators/Tag',
+  title: 'Components/Visual indicators/Tag',
 };
 
 // Story: default tag

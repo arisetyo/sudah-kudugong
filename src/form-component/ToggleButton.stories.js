@@ -6,13 +6,13 @@
 
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import { withKnobs, number, array } from '@storybook/addon-knobs/react';
+import { withKnobs, number, array } from '@storybook/addon-knobs';
 import ToggleButton from './ToggleButton';
 
 // Story title
 export default {
   component: ToggleButton,
-  title: 'Components|Form components/Toggle button',
+  title: 'Components/Form components/Toggle button',
   decorators: [withKnobs],
   excludeStories: /.*Data$/,
 };

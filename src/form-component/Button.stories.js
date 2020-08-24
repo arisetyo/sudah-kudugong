@@ -6,13 +6,13 @@
 
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import { withKnobs, boolean } from '@storybook/addon-knobs/react';
+import { withKnobs, boolean } from '@storybook/addon-knobs';
 import Button from './Button';
 
 // Story title
 export default {
   component: Button,
-  title: 'Components|Form components/Button',
+  title: 'Components/Form components/Button',
   decorators: [withKnobs],
   excludeStories: /.*Data$/,
 };
