@@ -17,7 +17,9 @@ module.exports = {
     ],
     output: {
         path: __dirname + '/build',
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        libraryTarget: 'umd',
+        library: 'sudah_kudugong'
     },
     module: {
         rules: [
