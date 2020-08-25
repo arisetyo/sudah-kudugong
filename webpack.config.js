@@ -76,14 +76,7 @@ module.exports = {
         minimizer: [new UglifyJsPlugin()],
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin(),
-        new HtmlWebpackPlugin({
-            template: __dirname + '/static/index.html',
-            filename: './index.html'
-        }),
-        new CopyWebpackPlugin([
-            __dirname + '/static/index.css'
-        ], {})
+        new webpack.HotModuleReplacementPlugin()
     ],
     devServer: {
         host,
