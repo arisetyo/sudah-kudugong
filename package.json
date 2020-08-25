@@ -5,9 +5,7 @@
   "main": "build/bundle.js",
   "scripts": {
     "test": "node_modules/mocha/bin/_mocha --opts ./mocha.opts ./src/*/*.tests.js",
-    "start": "node index.js",
-    "dev-server": "node dev_server.js",
-    "build": "webpack",
+    "build": "webpack --config webpack.prod.js",
     "storybook": "start-storybook"
   },
   "keywords": [
@@ -42,6 +40,7 @@
     "babel-preset-minify": "^0.5.1",
     "chai": "^4.2.0",
     "chai-jest-snapshot": "^2.0.0",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",

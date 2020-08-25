@@ -15,7 +15,7 @@
   outline: none;
   text-decoration: none;
   overflow: hidden;
-  background-color: beige;
+  background-color: lightcoral;
 }
 
 .ToggleButton > button:disabled {
@@ -23,8 +23,8 @@
 }
 
 .ToggleButton > button:first-child {
-  border-top-left-radius: 1px;
-  border-bottom-left-radius: 1px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 
 .ToggleButton > button:not(:first-child) {
@@ -32,10 +32,10 @@
 }
 
 .ToggleButton > button:last-child {
-  border-top-right-radius: 1px;
-  border-bottom-right-radius: 1px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 .ToggleButton > button.selected {
-  background-color: darkgoldenrod;
+  background-color: crimson;
 }
