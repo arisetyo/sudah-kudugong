@@ -4,8 +4,6 @@
  */
 
 const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
  
 const port = 3000;
@@ -15,8 +13,6 @@ module.exports = {
     bail: true,
     devtool: 'eval',
     entry: [
-        'webpack-dev-server/client?http://' + host + ':' + port,
-        'webpack/hot/only-dev-server',
         __dirname + '/src/index.js',
     ],
     output: {
