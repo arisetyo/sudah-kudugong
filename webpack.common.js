@@ -17,6 +17,7 @@ module.exports = {
   output: {
     path: __dirname + '/build',
     filename: 'bundle.js',
+    // important to make sure this library can be loaded to the Dugong framework
     libraryTarget: 'umd',
     library: 'sudah_kudugong'
   },
