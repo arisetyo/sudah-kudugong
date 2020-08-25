@@ -75,13 +75,5 @@ module.exports = {
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin()
-    ],
-    devServer: {
-        host,
-        port,
-        progress: true,
-        colors: true,
-        contentBase: __dirname + '/src',
-        historyApiFallback: true
-    }
+    ]
 };
