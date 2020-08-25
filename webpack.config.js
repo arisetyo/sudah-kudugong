@@ -10,6 +10,7 @@ const port = 3000;
 const host = 'localhost';
  
 module.exports = {
+    mode: 'production',
     bail: true,
     devtool: 'eval',
     entry: [
@@ -69,9 +70,6 @@ module.exports = {
                 use: ['url-loader']
             }
         ]
-    },
-    optimization: {
-        minimizer: [new UglifyJsPlugin()],
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin()
