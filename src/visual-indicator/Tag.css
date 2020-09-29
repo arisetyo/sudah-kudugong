@@ -7,7 +7,7 @@
  .Tag {
 	display: inline-block;
 	border-radius: 1px;
-	background-color: coral;
+	background-color: var(--tertiary-accent);
 	padding: 2px 6px;
 	cursor: default;
 	font-size: 0.6em;

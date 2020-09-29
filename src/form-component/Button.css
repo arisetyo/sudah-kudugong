@@ -11,7 +11,12 @@
    outline: none;
    text-decoration: none;
    overflow: hidden;
-   background-color:lightcoral;
+   background-color: var(--primary-accent);
+   color: var(--main-fg);
+}
+
+.Button:hover {
+  background-color: var(--secondary-accent);
 }
 
 .Button:disabled {

@@ -2,6 +2,17 @@
 	font-family: 'Rubik', Arial, Helvetica, sans-serif;
 }
 
+/* Color theme: Fashion (Michelle Watt) */
+:root {
+	--main-bg: #333333;
+	--main-fg: #E0E0E0;
+	--primary-accent: rgba(0, 20, 38, 1);
+	--alt-primary-accent: rgba(2, 82, 114, 1);
+	--secondary-accent: rgba(191, 155, 110, 1);
+	--alt-secondary-accent: rgba(191, 179, 164, 1);
+	--tertiary-accent: rgba(140, 98, 61, 1);
+}
+
 html {
 	overflow: hidden;
 	height: 100%;
@@ -10,6 +21,8 @@ html {
 body {
 	height: 100%;
 	overflow: auto;
+	background-color: var(--main-bg);
+	color: var(--main-fg);
 }
 
 /* RESET STYLING */
