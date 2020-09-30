@@ -16,7 +16,7 @@
   text-decoration: none;
   overflow: hidden;
   background-color: var(--primary-accent);
-  color: var(--main-fg);
+  color: var(--main-bg);
 }
 
 .ToggleButton > button:hover {
