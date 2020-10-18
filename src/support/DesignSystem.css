@@ -26,3 +26,16 @@
   font-size: .7em;
   color: white;
 }
+
+.paletteBox > .content > strong {
+  font-weight: 900;
+}
+
+.typographyContainer > h1 {
+  color: var(--alt-primary);
+}
+
+.typographyContainer > p {
+  font-size: large;
+  padding: 4px 0;
+}

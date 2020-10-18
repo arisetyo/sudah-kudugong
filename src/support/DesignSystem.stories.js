@@ -1,18 +1,18 @@
 /**
- * Storybook for UI palette
+ * Storybook for UI design system
  * @author Arie M. Prasetyo
  * @copyright 2020
  */
 
 import React from 'react';
-import styles from './Palette.css';
+import styles from './DesignSystem.css';
 
 // Story title
 export default {
-  title: 'Components/Support/Palette',
+  title: 'Components/Support/Design System',
 };
 
-// Story
+// Story for palette
 export const Palette = () => (
   <div className={styles.paletteContainer}>
     <div className={styles.paletteBox} style={{backgroundColor: 'var(--primary)'}}>
@@ -49,5 +49,20 @@ export const Palette = () => (
         <p>rgba(140, 98, 61, 1)</p>
       </div>
     </div>
+  </div>
+);
+
+// Story for typography
+export const Typography = () => (
+  <div className={styles.typographyContainer}>
+    <h1>Font styles</h1>
+    <p style={{fontWeight: '300'}}>Rubik light (300)</p>
+    <p style={{fontWeight: '300'}}><em>Rubik light (300) italic</em></p>
+    <p>Rubik regular (400)</p>
+    <p><em>Rubik regular (400) italic</em></p>
+    <p style={{fontWeight: '600'}}>Rubik bold (600)</p>
+    <p style={{fontWeight: '600'}}><em>Rubik bold (600) italic</em></p>
+    <p style={{fontWeight: '900'}}>Rubik black (900)</p>
+    <p style={{fontWeight: '900'}}><em>Rubik black (900) italic</em></p>
   </div>
 );
