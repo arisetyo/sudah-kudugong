@@ -15,12 +15,12 @@
   outline: none;
   text-decoration: none;
   overflow: hidden;
-  background-color: var(--primary-accent);
+  background-color: var(--primary);
   color: var(--main-bg);
 }
 
 .ToggleButton > button:hover {
-  background-color: var(--secondary-accent);
+  background-color: var(--secondary);
 }
 
 .ToggleButton > button:disabled {
@@ -42,9 +42,9 @@
 }
 
 .ToggleButton > button.selected {
-  background-color: var(--alt-primary-accent);
+  background-color: var(--alt-primary);
 }
 
 .ToggleButton > button.selected:hover {
-  background-color: var(--secondary-accent);
+  background-color: var(--secondary);
 }

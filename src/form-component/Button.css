@@ -11,14 +11,17 @@
    outline: none;
    text-decoration: none;
    overflow: hidden;
-   background-color: var(--primary-accent);
+   background-color: var(--primary);
    color: var(--main-bg);
 }
 
-.Button:hover {
-  background-color: var(--secondary-accent);
+.Button:hover:not(:disabled) {
+  background-color: var(--secondary);
 }
 
 .Button:disabled {
   cursor: default;
+  background-color: var(--alt-secondary);
+  color: var(--secondary);
+  font-style: italic;
 }
